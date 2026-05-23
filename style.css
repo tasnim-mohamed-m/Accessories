@@ -1,0 +1,623 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Bricolage Grotesque", sans-serif;
+    overflow-x: hidden;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+}
+.h {
+    height: 100vh;
+    padding: 20px;
+    background-color: #0e1640;
+    background-size: cover;
+}
+.du {
+    text-align: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.o {
+    margin: 0 100px;
+    height: 100%;
+    position: relative;
+    color: white;
+}
+.o img {
+    width: 150px;
+    height: 128px;
+}
+.o ul {
+    display: flex;
+    list-style: none;
+}
+.o ul li {
+    padding: 0 20px 6px 20px;
+    transition: all 0.5s 0.1s ease;
+}
+.o ul li a {
+    font-size: 20px;
+    text-decoration: none;
+}
+.o ul li i {
+    font-size: 20px;
+}
+.o ul li a,
+.o ul li i,
+.l i {
+    color: white;
+    transition: all 0.5s 0.1s ease;
+}
+.o ul li:hover {
+    border-bottom: 0.5px solid #8693d8;
+    transform: scale(1.05);
+}
+.o ul li:hover a,
+.o ul li:hover i,
+.l i:hover {
+    color: #8693d8;
+    transform: scale(1.05);
+}
+.l i {
+    margin-right: 22px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.f {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.f h1 {
+    font-size: 87px;
+}
+.f h4 {
+    font-size: 22px;
+    padding-bottom: 21px;
+    color: #9a93e3;
+}
+.f p {
+    font-size: 19px;
+    padding-bottom: 30px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+.imm {
+    margin-right: 70px;
+    padding-left: 70px;
+}
+.imm img {
+    height: 293px;
+    width: 329px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    border: 2px solid #9a93e3c9;
+    transition: all 0.5s 0.1s ease;
+}
+.imm img:hover {
+    transform: scale(1.05);
+}
+.f button {
+    font-size: 14px;
+    width: 150px;
+    height: 43px;
+    border-radius: 65px;
+    color: white;
+    background-color: #59529d;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s 0.1s ease;
+}
+.f button:hover {
+    color: #4a4487;
+    background-color: white;
+    transform: scale(1.03);
+}
+.o ul::selection,
+.l::selection,
+.f h1::selection,
+.f button::selection,
+.f p::selection {
+    color: #59529d;
+    background-color: white;
+}
+.f h4::selection {
+    background-color: white;
+}
+.a {
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    background-image: url(iimg/pexels-jose-manuel-gonzalez-lupianez-photography-2656620-9541779.jpg);
+    background-size: cover;
+}
+.a .b {
+    display: grid;
+    width: 1000px;
+    margin-left: 230px;
+    margin-top: 57px;
+    height: 69px;
+}
+.a .b h1 {
+    font-size: 40px;
+    background-color: #1f275154;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.out {
+    margin-top: 135px;
+    display: flex;
+}
+.ou {
+    padding-top: 24px;
+}
+.ou p {
+    padding: 28px;
+    line-height: 1.4;
+}
+.ou p span {
+    color: #958aff;
+}
+.a .b h1::selection,
+.ou p::selection {
+    color: #59529d;
+    background-color: white;
+}
+.ou p span::selection {
+    color: white;
+    background-color: #59529d;
+}
+.mg img {
+    width: 263px;
+    height: 208px;
+    border-radius: 37px;
+    padding: 8px;
+    margin-left: 45px;
+    transition: all 0.5s 0.1s ease;
+}
+.mg img:hover {
+    transform: scale(1.05);
+}
+.pr {
+    color: white;
+    height: 140vh;
+    padding: 20px;
+    background-color: #0e1640;
+}
+.pr .b {
+    width: 1000px;
+    margin-left: 230px;
+    margin-top: 57px;
+    height: 69px;
+}
+.pr .ro h1 {
+    font-size: 40px;
+    background-color: #1f275154;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.pro {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 80px;
+    flex-wrap: wrap;
+}
+.mn-col {
+    width: 300px;
+}
+.mn-it {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+.du h4 {
+    padding: 5px 0;
+}
+.du p del {
+    color: #726f96;
+    font-size: 14px;
+}
+.du p span {
+    color: white;
+    display: inline-block;
+    transition: all 0.5s 0.1s ease;
+}
+.pro .du img {
+    width: 173px;
+    height: 170px;
+    border-radius: 36px;
+    transition: all 0.5s 0.1s ease;
+}
+.pro .du img:hover {
+    transform: scale(1.05);
+}
+.du p span:hover {
+    transform: scale(1.1);
+}
+.ro::selection {
+    color: white;
+    background-color: #59529d;
+}
+.rev {
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    background-image: url(iimg/pexels-jose-manuel-gonzalez-lupianez-photography-2656620-9541779.jpg);
+    background-size: cover;
+}
+.rev .vew {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    margin-top: 57px;
+    height: 69px;
+}
+.rev .vew h1 {
+    font-size: 40px;
+    background-color: #1f275154;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.ie {
+    display: flex;
+    margin: 110px 15px 10px 175px;
+}
+.ie .la {
+    width: 270px;
+    height: 250px;
+    margin: 45px;
+    padding: 8px;
+    border: 0.5px solid #5a4ecc;
+    border-radius: 5px;
+}
+.ie .la i {
+    padding: 5px;
+    color: #5a4ecc;
+}
+.ie .la p {
+    padding: 4px;
+    color: #adacb8;
+    font-size: 15px;
+}
+.la img {
+    width: 53px;
+    height: 38px;
+    border-radius: 50%;
+}
+.w {
+    display: flex;
+    padding: 10px;
+}
+.r {
+    padding: 6px;
+}
+.r h5 {
+    font-size: 15px;
+    color: #5a4ecc;
+}
+.r h6 {
+    font-size: 9px;
+    padding-top: 2px;
+    color: #898989;
+}
+.rev::selection {
+    color: white;
+    background-color: #59529d;
+}
+.cou {
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    background-color: #2f344e;
+    background-size: cover;
+}
+.cou .out {
+    display: grid;
+    width: 1000px;
+    margin-left: 270px;
+    margin-top: 57px;
+    height: 69px;
+}
+.cou .out h1 {
+    font-size: 40px;
+    background-color: #1f275154;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+.em {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2px 50px;
+}
+.mes {
+    width: 340px;
+    padding: 30px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.em .mes input,
+.em .mes textarea {
+    padding: 12px 14px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+input:focus,
+textarea:focus {
+    background: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0 10px rgba(137, 45, 183, 0.3);
+}
+.em .mes button {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #5d389f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.em .mes button:hover {
+    transform: scale(1.05);
+}
+.em .ff {
+    display: flex;
+    gap: 45px;
+}
+.ff .tt {
+    margin: 0 0 30px 55px;
+}
+.ff .tt h3 {
+    font-size: 25px;
+    margin-left: -10px;
+    color: #958aff;
+}
+.ff .tt ul {
+    padding-top: 7px;
+    list-style: none;
+}
+.ff .tt ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 7px;
+    font-size: 15px;
+    display: inline-block;
+}
+.ff .tt ul li a:hover {
+    color: hsl(229, 33%, 72%);
+}
+.foll {
+    position: absolute;
+    margin-top: -108px;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.foll h1 {
+    margin: 73px 0 14px 0;
+    font-size: 25px;
+    color: #958aff;
+}
+.foll i {
+    margin-left: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.foll i:hover {
+    color: hsl(229, 33%, 72%);
+}
+.cou::selection {
+    color: white;
+    background-color: #59529d;
+}
+
+/* ==========================================================================
+   ===== MEDIA QUERIES (RESPONSIVE FIXES) =====
+   ========================================================================== */
+@media (max-width: 767px) {
+
+    .home, .h, .a, .pr, .rev, .cou {
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 15px;
+    }
+
+    /* ===== NAV ===== */
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .o {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .o ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+    }
+    .o ul li {
+        padding: 5px 0;
+        width: 100%;
+    }
+    .o ul li a {
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 8px;
+    }
+    .o img {
+        width: 100px;
+        height: auto;
+    }
+    .l {
+        margin-top: 10px;
+    }
+    .l i {
+        margin: 0 10px;
+    }
+
+    /* ===== HERO ===== */
+    .f {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .f h1 {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+    .f h4 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .f p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .f p br {
+        display: none;
+    }
+    .imm {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .imm img {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* ===== ABOUT ===== */
+    .a .b, .pr .b, .cou .out {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        height: auto;
+    }
+    .a .b h1, .pr .ro h1, .rev .vew h1, .cou .out h1 {
+        font-size: 28px;
+        padding: 10px;
+    }
+    .out {
+        flex-direction: column;
+        margin-top: 30px;
+        gap: 30px;
+    }
+    .ou {
+        padding-top: 0;
+    }
+    .ou p {
+        font-size: 15px;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .mg {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin: 0;
+    }
+    .mg img {
+        width: 45%;
+        height: auto;
+        margin: 0;
+        border-radius: 20px;
+    }
+
+    /* ===== PRODUCTS ===== */
+    .pr {
+        height: auto;
+    }
+    .pro {
+        padding-top: 40px;
+        gap: 30px;
+    }
+    .mn-col {
+        width: 100%;
+        max-width: 280px;
+    }
+    .pro .du img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+    }
+
+    /* ===== REVIEWS ===== */
+    .ie {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 0 0 0;
+        gap: 20px;
+    }
+    .ie .la {
+        margin: 0;
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        padding: 15px;
+    }
+
+    /* ===== CONTACT ===== */
+    .em {
+        flex-direction: column;
+        margin: 0;
+        padding-top: 40px;
+        gap: 40px;
+    }
+    .mes {
+        width: 100%;
+        max-width: 100%;
+    }
+    .mes textarea {
+        width: 100%;
+    }
+    .ff {
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .ff .tt {
+        margin: 0;
+    }
+    .foll {
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 40px;
+        width: 100%;
+    }
+    .foll h1 {
+        margin: 20px 0 15px 0;
+    }
+}
